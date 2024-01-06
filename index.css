@@ -1,0 +1,1011 @@
+/* ==============Laptop Screen CSS============== */
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #10101a;
+    color: #9398aa;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+}
+#labelul{
+    display: none;
+}
+#label,#check{
+    display: none;
+}   
+#navbar{
+    margin-top: 0;
+    height: 90px;
+    width: 100%;
+    box-shadow: 1px 1px 5px #0c0c14;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #10101a;
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    position: fixed;
+    z-index: 10;
+}
+#navbar div a img{
+    height: 70px;
+}
+#navbar ul li{
+    cursor: pointer;
+    display: inline;
+    padding: 20px;
+    list-style-type: none;
+    /* color: #ff4904; */
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.navbarsecandulli{
+    margin-right: 2%;
+}
+#home{
+    height: 780px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home img{
+    width: 100%;
+    height: auto;
+}
+.homechild1{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 600px;
+    width: 30%;
+    background-color: #141421;
+    padding: 20px;
+}
+.homechild2{
+    margin-left: 2%;
+    margin-top: 2%;
+    padding: 20px;
+    height: 400px;
+    width: 40%;
+    font-size: 22px;
+}
+.homechild2 div{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.homechild2 div ul li{
+    display: inline;
+    padding: 10px;
+    list-style-type: none;
+}
+.homechild2 div ul li a:hover{
+    color: #ff4904;
+    transition: all 0.5s;
+}
+.homechild2 div ul li a{
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #ffffff;
+}
+#aboutmebutt1{
+    height: 52px;
+    width: 160px;
+    background-color: #10101a;
+    border: none;
+    border-radius: 5px;
+    font-family: Poppins, sans-serif;
+    color: #10101a;
+    font-weight: 400;
+    font-size: 18px;
+}
+#aboutmebutt{
+    height: 52px;
+    width: 160px;
+    background-color: #ff4904;
+    border: none;
+    border-radius: 8px;
+    font-family: Poppins, sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 18px;
+}
+#hirebuttt{
+    font-weight: 200;
+}
+#about{
+    padding: 20px;
+    background-color: #0b0b13;
+    color: #9398aa;
+    height: 700px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto;
+    text-align: center;
+}
+#aboutheading{
+    margin-top: 2%;
+    height: 100px;
+    width: 100%;
+}
+#aboutheading h1{
+    font-size: 65px;
+    margin-top: -0%;
+}
+.imageborder{
+    height: 424px;
+    width: 636px;
+    border: solid 5px #ff4904;
+    border-top-left-radius: 30%;
+}
+.imageborder img{
+    height: 424px;
+    width: 636px;
+    border-top-left-radius: 30%;
+    margin-top: -3%;
+    margin-left: -5%;
+}
+.aboutcenter{
+    display: flex;
+}
+.aboutinfo{
+    display: flex;
+}
+.aboutulli ul{
+    display: flex;
+}
+.aboutulli ul li h3{
+    height: 80px;
+    font-size: 24px;
+    font-weight: 200;
+}
+.aboutulli ul li{
+    height: 42px;
+    list-style-type: none;
+}
+.aboutulli button{
+    height: 52px;
+    width: 160px;
+    background-color: #ff4904;
+    border: none;
+    border-radius: 5px;
+    font-family: Poppins, sans-serif;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+}
+#resume{
+    background-color: #0b0b13;
+    height: 600px;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto;
+    text-align: center;
+}
+#resumeheading{
+    margin-top: 2%;
+    height: 100px;
+    width: 100%;
+}
+#resumeheading h1{
+    font-size: 65px;
+    margin-top: -0;
+}
+.resumecenter h1{
+    font-size: 30px;
+}
+#education{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+#educhild1,#educhild2,#educhild3{
+    height: 292px;
+    width: 472px;
+    background-color: #141421;
+    border-radius: 8px;
+}
+#knowledgecenter{
+    display: flex;
+    gap: 2%;
+}
+.knwchlid1,.knwchlid2{
+    height: 370px;
+    width:  636px;
+    background-color: #141421;
+    border: none;
+    border-radius: 8px;
+}
+#knowledge{
+    background-color: #0b0b13;
+    height: 620px;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto;
+    text-align: center;
+}
+#knwheading{
+    margin-top: 2%;
+    height: 100px;
+    width: 100%;
+}
+#knwheading h1{
+    font-size: 65px;
+    margin-top: -0;
+}
+.knwchlid1,.knwchlid2{
+    display: grid;
+}
+.knwchlid1 label,.knwchlid2 label{
+    margin-top: 3%;
+    margin-right: 80%;
+}
+.knwchlid1 input,.knwchlid2 input{
+    margin-top: -4%;
+    cursor: cell;
+}
+#service{
+    margin-top: -2%;
+    background-color: #0b0b13;
+    height: 900px;
+    width: 100%;
+    text-align: center;   
+    display: grid;
+    padding: 20px;
+}
+#serviceheading{
+    margin-top: 2%;
+    height: 100px;
+    width: 100%;
+}
+#serviceheading h1{
+    font-size: 65px;
+    margin-top: -0;
+}
+.servicechlid{
+    height: 334px;
+    width: 420px;
+    background-color: #141421;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.servicecenter{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+#review{
+    background-color: #0b0b13;
+    height: 540px;
+    width: 100%;
+    text-align: center;   
+    padding: 20px;
+    overflow: hidden;
+}
+#reviewheading{
+    margin-top: 2%;
+    height: 100px;
+    width: 100%;
+}
+#reviewheading h1{
+    font-size: 65px;
+    margin-top: -0;
+}
+#reviewcenter{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+#reviewcenter div{
+    height: 348px;
+    width: 1300px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+#reviewcenter img{
+    height: 347px;
+    width: 1296px;
+}
+#statics{
+    margin-top: -2%;
+    background-color: #0b0b13;
+    height: 340px;
+    width: 100%;
+    text-align: center;   
+    display: grid;
+    padding: 20px;
+}
+#staticsheading{
+    margin-top: 2%;
+    height: 100px;
+    width: 100%;
+}
+#staticsheading h1{
+    font-size: 65px;
+    margin-top: -0;
+}
+.staticscenter{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    gap: 2%;
+    overflow: hidden;
+}
+.staticscentchild1,.staticscentchild2,
+.staticscentchild3,.staticscentchild4{
+    height: 150px;
+    width: 304px;
+    background-color: #141421;
+    border-radius: 8px;
+}
+.staticscentchild1 p,.staticscentchild2 p,
+.staticscentchild3 p,.staticscentchild4 p{
+    margin-top: -5%;
+    font-size: 26px;
+}
+#count1,#count2,#count3,#count4{
+    font-size: 38px;
+}
+#count1::after,#count2::after,#count3::after,#count4::after{
+    content: "+";
+}
+#portfolio{
+    background-color: #141421;
+    height:  1144px;
+    width: 100%;
+    text-align: center;   
+    display: grid;
+    padding: 20px;
+}
+#portfolioheading{
+    margin-top: 2%;
+    height: 150px;
+    width: 100%;
+}
+#portfolioheading h1{
+    font-size: 65px;
+    margin-top: -0;
+}
+.portfoliocenter{
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    gap: 2%;
+    overflow: hidden;
+}
+.portfoliocenter img{
+    height: auto;
+    width: 100%;
+}
+.portfoliocentchild1,.portfoliocentchild2,.portfoliocentchild3,
+.portfoliocentchild4,.portfoliocentchild5,.portfoliocentchild6{
+    height: 366px;
+    width: 420px;
+    background-color: #0c0c14;
+    border-radius: 8px;
+}
+.portbutt{
+    margin-top: -4%;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+.portbutt button{
+    height: 52px;
+    width: auto;
+    padding: 14px;
+    border: solid 2px #ff4904;
+    background-color: #141421;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+}
+#blog{
+    background-color: #0b0b13;
+    height:  900px;
+    width: 100%;
+    text-align: center;   
+    display: grid;
+    padding: 20px;
+}
+#blogheading{
+    margin-top: 2%;
+    height: 150px;
+    width: 100%;
+}
+#blogheading h1{
+    font-size: 65px;
+    margin-top: -0;
+}
+.blogcenter{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+.blogcenter img{
+    height: auto;
+    width: 100%;
+}
+.bgctchimg1,.bgctchimg2,.bgctchimg3{
+    height: 312px;
+    width: 416px;
+    background-color: #141421;
+    border-bottom: solid 5px #ff4904;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    overflow: hidden;
+}
+.bgctchimg1:hover img{
+    transform: scale(1.1);
+    transition: all 1s;
+    filter: grayscale(100);
+}
+.bgctchimg2:hover img{
+    transform: scale(1.1);
+    transition: all 1s;
+    filter: grayscale(100);
+}
+.bgctchimg3:hover img{
+    transform: scale(1.1);
+    transition: all 1s;
+    filter: grayscale(100);
+}
+.bgctchinfo1,.bgctchinfo2,.bgctchinfo3{
+    text-align: start;
+    height: 312px;
+    width: 416px;
+    background-color: #141421;
+    border-top: solid 5px #ff4904;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.blogcenter h3,.blogcenter p{
+    margin-left: 10%;
+    font-size: 22px;
+}
+#contact{
+    background-color: #141421;
+    height:  700px;
+    width: 100%;
+    text-align: center;   
+    display: grid;
+    padding: 20px;
+}
+#contactheading{
+    margin-top: 2%;
+    height: 150px;
+    width: 100%;
+}
+#contactheading h1{
+    font-size: 65px;
+    margin-top: -0;
+}
+#contactheading h3{
+    font-weight: 100;
+    margin-top: -1%;
+}
+.contactcenter{
+    display: flex;
+}
+.contactinfo{
+    height: 300px;
+    width: 50%;
+    display: flex;
+}
+.contactinfo ul li{
+    list-style-type: none;
+}
+.contacticon{
+    margin-left: 20%;
+    height: 300px;
+    width: 25%;
+    display: grid;
+}
+.contactinn{
+    margin-top: -2%;
+    height: 300px;
+    width: 25%;
+    display: grid;
+}
+.conticons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    background-color: #ff4904;
+}
+.contactfom{
+        height: 300px;
+        width: 100%;
+}
+.formfirstdiv{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+.contactfom input{
+    font-size: large;
+    color: white;
+}
+#mob,#naam{
+    height: 42px;
+    width: 24%;
+    background-color: transparent;
+    border: solid 1px white;
+    border-radius: 5px;
+}
+#email{
+    height: 42px;
+    width: 51%;
+    background-color: transparent;
+    border: solid 1px white;
+    border-radius: 5px;
+}
+#msg{
+    height: 192px;
+    width: 51%;
+    background-color: transparent;
+    border: solid 1px white;
+    border-radius: 5px;
+    /* overflow: hidden; */
+}
+.contactfom button{
+    height: 48px;
+    width: 196px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ff4904;
+    font-size: large;
+    color: white;
+}
+.lastdiv{
+    height: 140px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lastdiv p{
+    margin-left: 5%;
+    margin-right:  5%;
+}
+/* ==============Laptop Screen CSS============== */
+/* ==============Tablet Screen CSS============== */
+#check:checked~ #navbar ul{
+    display: block;
+}
+@media only screen and (max-width: 800px) {
+    html{
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    #labelul{
+        display: block;
+    }
+    #check{
+        display: none;
+    }
+    #label{
+        display: block;
+    }
+    #navbar{
+        margin-top: -2%;
+    }
+    .navbarsecandulli ul{
+        position: absolute;
+        display: none;
+        height:  900px;
+        width: 50%;   
+        top:  74px;
+        left: 0px;
+        background: rgba(5, 4, 4, 0.77); 
+    }
+    .navlist ul li a{
+        color: white;
+    }
+    #navbar div ul li{
+        display: block;
+    }
+    #home{
+        height: 900px;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    #home img{
+        margin-top: -2%;
+        width: auto;
+        height: 320px;
+    }
+    .homechild1{
+        margin-top: 12%;
+        margin-left: 15%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        width: 70%;
+        background-color: #141421;
+        padding: 20px;
+    }
+    .homechild2{
+        margin-top: -10%;
+        margin-left: 15%;
+        height: 400px;
+        width: 70%;
+        text-align: center;
+        font-size: large;
+    }
+    .homechild2 div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .homechild2 div ul li{
+        list-style-type: none;
+    }
+    .homechild2 div ul li a{
+        font-size: 16px;
+        font-weight: 400;
+        text-decoration: none;
+        color: #ffffff;
+    }
+    .homechild2 div button{
+        height: 42px;
+        width: 130px;
+        background-color: #ff4904;
+        border: none;
+        border-radius: 5px;
+        font-family: Poppins, sans-serif;
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 12px;
+    }
+    #about{
+        background-color: #0b0b13;
+        height: 1000px;
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: auto;
+        text-align: center;
+        font-size: 14px;
+    }
+    #aboutheading{
+        margin-top: 2%;
+        height: 100px;
+        width: 100%;
+    }
+    #aboutheading h1{
+        font-size: 65px;
+        margin-top: -0%;
+    }
+    .imageborder{
+        height: auto;
+        width: 100%;
+        border: solid 5px #ff4904;
+        border-top-left-radius: 30%;
+    }
+    .imageborder img{
+        height: auto;
+        width: 100%;
+        border-top-left-radius: 30%;
+        margin-top: -3%;
+        margin-left: -5%;
+    }
+    .aboutinfo{
+        display: flex;
+    }
+    .aboutcenter{
+        display: grid;
+    }
+    .aboutulli ul{
+        display: flex;
+    }
+    .aboutulli ul li{
+        list-style-type: none;
+    }
+    .aboutulli button{
+        height: 52px;
+        width: 160px;
+        background-color: #ff4904;
+        border: none;
+        border-radius: 5px;
+        font-family: Poppins, sans-serif;
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 18px;
+        margin-left: -20%;
+    }
+    #resume{
+        width: 106%;
+        background-color: #0b0b13;
+        height: 1100px;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: auto;
+        text-align: center;
+    }
+    #resumeheading{
+        width: 100%;
+    }
+    #resumeheading h1{
+        font-size: 65px;
+        width: 100%;
+    }
+    #ededed{
+        margin-top: -30px;
+        width: 100%;
+    }
+    #education{
+        margin-top: -70px;
+        height: auto;
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    #education div{
+        height: 280px;
+        width: 100%;
+        font-size: 16px;
+    }
+    #knowledge{
+        height: 1050px;
+        width: 106%;
+    }
+    #knwheading{
+        width: 100%;
+    }
+    #knowledgecenter{
+        display: grid;
+        width: 100%;
+    }
+    #service{
+        height: 1200px;
+        width: 100%;
+        overflow: hidden;
+    }
+    #statics{
+        width: 100%;
+    }
+    .servicecenter{
+        height: 900px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .servicecenter div{
+        height: 312px;
+        width: 312px;
+    }
+    .staticscenter p{
+        font-size: large;
+    }    
+    #portfolio{
+        height: 1240px;
+        width: 100%;
+    }
+    .portbutt{
+        height: 100px;
+        width: 100%;
+    }
+    .portfoliocenter div{
+        width: 100%;
+        height: auto;
+    }
+    .portfoliocenter{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    #blog{
+        width: 100%;
+        height: 2200px;
+    }
+    .blogcenter{
+        margin-top: -100px;
+        height: auto;
+        display: grid;
+    }
+    #contact{
+        height: 1100px;
+        width: 100%;
+    }
+    .contactcenter{
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        display: grid;
+        justify-content: center;
+    }
+    .contactinfo div{
+        margin-left: 0;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .contactfom{
+        display: grid;
+        width: 100%;
+    }
+    .contactfom div{
+        width: 100%;
+    }
+    .contactinn{
+        margin-top: -6%;
+    }
+    .formfirstdiv{
+        width: 100%;
+    }
+    #mob,#naam{
+        height: 42px;
+        width: 100%;
+        background-color: transparent;
+        border: solid 1px white;
+        border-radius: 5px;
+    }
+    #email{
+        height: 42px;
+        width: 100%;
+        background-color: transparent;
+        border: solid 1px white;
+        border-radius: 5px;
+    }
+    #msg{
+        height: 192px;
+        width: 100%;
+        background-color: transparent;
+        border: solid 1px white;
+        border-radius: 5px;
+    }
+}    
+/* ==============Tablet Screen CSS============== */
+/* ==============Mobile Screen CSS============== */
+@media only screen and (max-width: 600px) {
+    #labelul{
+        display: block;
+    }
+    #label{
+        display: block;
+    }
+    #navbar{
+        width: 100%;
+    }
+    .navbarsecandulli ul{
+        position: absolute;
+        display: none;
+        height:  900px;
+        width: 50%;   
+        top:  74px;
+        left: 0px;
+        background: rgba(5, 4, 4, 0.77); 
+    }
+    .navlist ul li a{
+        color: white;
+    }
+    #navbar div ul li{
+        display: block;
+    }
+    #navbar{
+        margin-top: -10px;
+    }
+   #home{
+        width: 100%;
+        height: 700px;
+        font-size: small;
+   }
+   .homeinnnn{
+    display: none;
+   }
+   #about{
+    width: 100%;
+    font-size: small;
+   }
+   #about button{
+    margin-left:  67%;
+    margin-top: 2%;
+   }
+   #resume{
+    width: 109%;
+   }
+   #education div{
+        margin-left: 5%;
+        width: 90%;
+   }
+   #knowledge{
+    height: auto;
+        width: 109%;
+   }
+   #knowledgecenter div{
+        width: 100%;
+        padding: 10%;
+        margin-left: -10%;
+   }
+   #service{
+    width: 100%;
+    height: 2300px;
+   }
+   .servicecenter{
+    margin-top: -100px;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto;
+   }
+   #statics{
+    height: 1000px;
+    width: 100%;
+   }
+   .staticscenter{
+    display: grid;
+   }
+   #portfolio{
+    height: auto;
+    width: 100%;
+   }
+   .portbutt{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+   }
+   .portfoliocenter{
+    margin-top: 40px;
+    height: 2200px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+   }
+   #blog{
+    width: 100%;
+   }
+   .blogcenter{
+    width: 100%;
+   }
+   .blogcenter div{
+    width: 100%;
+}   
+/* ==============Mobile Screen CSS============== */
