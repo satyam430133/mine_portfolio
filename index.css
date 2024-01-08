@@ -823,7 +823,7 @@ body{
         font-size: large;
     }    
     #portfolio{
-        height: 1240px;
+        height: auto;
         width: 100%;
     }
     .portbutt{
