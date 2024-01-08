@@ -239,7 +239,7 @@ let store = '';
                     "Content-Type":"application/json"
                 },
                 body:JSON.stringify(object)
-            }).then(alert("Registration Successfull"))   
+            }).then(alert(" Get Back To You Soon "))   
 }  
 
 let counter1 = 0 
@@ -296,3 +296,70 @@ setInterval(() => {
         review = 0;
     }
 },5000);
+
+function allbut(){
+    document.getElementById('allbutt').style.backgroundColor = '#ff4904'
+    document.getElementById('wdpbutt').style.backgroundColor = ''
+    document.getElementById('wdgbutt').style.backgroundColor = ''
+    document.getElementById('gpbutt').style.backgroundColor = ''
+    document.getElementById('uiuxbutt').style.backgroundColor = ''
+    document.getElementById('portimg1').style.display = ''
+    document.getElementById('portimg2').style.display = ''
+    document.getElementById('portimg3').style.display = ''
+    document.getElementById('portimg4').style.display = ''
+    document.getElementById('portimg5').style.display = ''
+    document.getElementById('portimg6').style.display = ''
+    document.getElementById('portfolio11').style.transition = 'all 5s'
+}
+function wdpbut(){
+    document.getElementById('allbutt').style.backgroundColor = ''
+    document.getElementById('wdpbutt').style.backgroundColor = '#ff4904'
+    document.getElementById('wdgbutt').style.backgroundColor = ''
+    document.getElementById('gpbutt').style.backgroundColor = ''
+    document.getElementById('uiuxbutt').style.backgroundColor = ''
+    document.getElementById('portimg1').style.display = ''
+    document.getElementById('portimg2').style.display = ''
+    document.getElementById('portimg3').style.display = ''
+    document.getElementById('portimg4').style.display = ''
+    document.getElementById('portimg5').style.display = 'none'
+    document.getElementById('portimg6').style.display = 'none'
+}
+function wdgbut(){
+    document.getElementById('allbutt').style.backgroundColor = ''
+    document.getElementById('wdpbutt').style.backgroundColor = ''
+    document.getElementById('wdgbutt').style.backgroundColor = '#ff4904'
+    document.getElementById('gpbutt').style.backgroundColor = ''
+    document.getElementById('uiuxbutt').style.backgroundColor = ''
+    document.getElementById('portimg1').style.display = ''
+    document.getElementById('portimg2').style.display = ''
+    document.getElementById('portimg3').style.display = ''
+    document.getElementById('portimg4').style.display = 'none'
+    document.getElementById('portimg5').style.display = 'none'
+    document.getElementById('portimg6').style.display = 'none'
+}
+function gpbut(){
+    document.getElementById('allbutt').style.backgroundColor = ''
+    document.getElementById('wdpbutt').style.backgroundColor = ''
+    document.getElementById('wdgbutt').style.backgroundColor = ''
+    document.getElementById('gpbutt').style.backgroundColor = '#ff4904'
+    document.getElementById('uiuxbutt').style.backgroundColor = ''
+    document.getElementById('portimg1').style.display = 'none'
+    document.getElementById('portimg2').style.display = 'none'
+    document.getElementById('portimg3').style.display = 'none'
+    document.getElementById('portimg4').style.display = 'none'
+    document.getElementById('portimg5').style.display = ''
+    document.getElementById('portimg6').style.display = ''
+}
+function uiuxbut(){
+    document.getElementById('allbutt').style.backgroundColor = ''
+    document.getElementById('wdpbutt').style.backgroundColor = ''
+    document.getElementById('wdgbutt').style.backgroundColor = ''
+    document.getElementById('gpbutt').style.backgroundColor = ''
+    document.getElementById('uiuxbutt').style.backgroundColor = '#ff4904'
+    document.getElementById('portimg1').style.display = 'none'
+    document.getElementById('portimg2').style.display = 'none'
+    document.getElementById('portimg3').style.display = 'none'
+    document.getElementById('portimg4').style.display = 'none'
+    document.getElementById('portimg5').style.display = 'none'
+    document.getElementById('portimg6').style.display = ''
+}
