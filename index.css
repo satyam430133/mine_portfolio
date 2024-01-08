@@ -378,10 +378,11 @@ body{
 }
 #portfolio{
     background-color: #141421;
-    height:  1144px;
+    height:  auto;
     width: 100%;
     text-align: center;   
     display: grid;
+    align-items: start;
     padding: 20px;
 }
 #portfolioheading{
@@ -399,28 +400,22 @@ body{
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: center;
-    align-items: center;
-    align-items: center;
+    /* align-items: center; */
     gap: 2%;
     overflow: hidden;
 }
 .portfoliocenter img{
-    height: auto;
-    width: 100%;
-}
-.portfoliocentchild1,.portfoliocentchild2,.portfoliocentchild3,
-.portfoliocentchild4,.portfoliocentchild5,.portfoliocentchild6{
     height: 366px;
     width: 420px;
     background-color: #0c0c14;
     border-radius: 8px;
 }
 .portbutt{
-    margin-top: -4%;
     height: 100px;
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: start;
     gap: 2%;
 }
 .portbutt button{
@@ -523,6 +518,10 @@ body{
 .contactcenter{
     display: flex;
 }
+.contacticon ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
 .contactinfo{
     height: 300px;
     width: 50%;
@@ -585,7 +584,6 @@ body{
     background-color: transparent;
     border: solid 1px white;
     border-radius: 5px;
-    /* overflow: hidden; */
 }
 .contactfom button{
     height: 48px;
